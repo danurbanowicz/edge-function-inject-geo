@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;800&amp;display=swap" rel="stylesheet">
-    <title>xxx at the Edge 🔪</title>
+    <title>Inject Geolocation Data at the Edge 🔪</title>
     <style>
       body { font-family: "Mulish", "avenir next", helvetica, sans-serif; text-align: center; font-weight: 300; font-size: 1.25rem;}
       button { font-size: 1.5rem; padding: 1rem 2rem; border: 0; border-radius: .5rem; background-color: blue; color: white;}
@@ -15,9 +15,11 @@
   </head>
   <body>
     
-    <h1>Inject Geolocation Data</h1>
+    <h1>Inject Geolocation Data at the Edge 🔪</h1>
 
-    <p>Demo of a simple serverless function that ...</p>
+    <p>Demo of a serverless edge function that intercepts the HTTP response body to inject Geolocation data into a static HTML page before it reaches the user.</p>
+      
+    <p>This is all done at the CDN edge; there is NO clientside JavaScript, and NO round trip to the origin server (fast).</p>
 
     <h2>Your location: LOCATION_UNKNOWN</h2>
     

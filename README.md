@@ -4,7 +4,9 @@ netlify status badge
 
 ### What is it?
 
-A serverless [Edge Function](https://docs.netlify.com/edge-functions/overview/) example that injects user geolocation data into a HTTP response at Netlify's Edge CDN.
+A serverless [Edge Function](https://docs.netlify.com/edge-functions/overview/) example that intercepts the HTTP response body to inject Geolocation data into a static HTML page before it reaches the user.
+
+This is all done at the CDN edge; there is NO clientside JavaScript, and NO round trip to the origin server (fast).
 
 ### Check out the [Demo Site](https://edge-function-inject-geo.netlify.app/)
 
