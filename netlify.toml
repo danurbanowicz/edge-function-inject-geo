@@ -1,0 +1,7 @@
+[build]
+  command = "echo No build required"
+  publish = "public"
+
+[[edge_functions]]
+  function = "inject-geo"
+  path = "/*"
