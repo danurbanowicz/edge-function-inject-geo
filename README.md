@@ -1,4 +1,4 @@
-netlify status badge
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d6314911-d79f-4a59-bc2f-9434d08bb654/deploy-status)](https://app.netlify.com/sites/edge-function-inject-geo/deploys)
 
 # Edge Function Inject Geolocation Data
 
@@ -6,13 +6,9 @@ netlify status badge
 
 A serverless [Edge Function](https://docs.netlify.com/edge-functions/overview/) example that intercepts the HTTP response body to inject Geolocation data into a static HTML page before it reaches the user.
 
-This is all done at the CDN edge; there is NO clientside JavaScript, and NO round trip to the origin server (fast).
+This is all done at the CDN edge; there is no clientside JavaScript and no round trip to the origin server.
 
 ### Check out the [Demo Site](https://edge-function-inject-geo.netlify.app/)
-
-Or deploy your own copy to Netlify
-
-deploy to netlify button
 
 ### Bug reports, feature requests, etc
 
