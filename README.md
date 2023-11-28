@@ -10,6 +10,10 @@ This is all done at the CDN edge; there is no clientside JavaScript and no round
 
 ### Check out the [Demo Site](https://edge-function-inject-geo.netlify.app/)
 
+Or deploy your own copy to Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/edge-function-inject-geo)
+
 ### Bug reports, feature requests, etc
 
 This repo is part of an ongoing project I am working on exploring common use cases for serverless functions, and I welcome contributions and suggestions. Feel free to submit an issue or PR!
